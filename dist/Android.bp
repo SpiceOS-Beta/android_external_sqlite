@@ -42,6 +42,7 @@ cc_defaults {
         "-DSQLITE_PRINTF_PRECISION_LIMIT=100000000",
         "-Wno-unused-parameter",
         "-Werror",
+        "-O3",
 
         // Default value causes sqlite3_open_v2 to return error if DB is missing.
         "-ftrivial-auto-var-init=pattern",
